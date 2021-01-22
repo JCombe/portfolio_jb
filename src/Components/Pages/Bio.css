@@ -75,7 +75,7 @@
   top: 150px;
   right: 15px;
 
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 @media only screen and (max-width: 767px) {
