@@ -1,0 +1,101 @@
+.bioPageBox {
+  display: block;
+  justify-self: center;
+  text-align: center;
+  padding: 15px;
+  background-color: #ffffff;
+  height: 850px;
+}
+
+.textCont {
+  position: absolute;
+  justify-self: left;
+  text-align: center;
+  max-width: 450px;
+  top: 150px;
+  transform: translate(0, 50%);
+  margin: auto;
+}
+
+.f1 {
+  font-size: 30px;
+  color: #1c2237;
+}
+
+.f12 {
+  font-size: 20px;
+  color: #495379;
+}
+
+.f2 {
+  font-size: 15px;
+  color: #1c2237;
+}
+
+.f3 {
+  font-size: 15px;
+  color: #495379;
+}
+
+.margin1 {
+  margin: 10px;
+}
+
+.bioBox {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bioBtnContact {
+  padding: 12px 32px 12px 32px;
+  border: 1px solid#1c2237;
+  margin: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #1c2237;
+  border-radius: 4px;
+}
+
+.bioBtnRes {
+  padding: 12px 32px 12px 32px;
+  border: 1px solid #1c2237;
+  margin: 5px;
+  color: #1c2237;
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+.btnWidth {
+  width: auto;
+}
+
+.portraitBox {
+  position: absolute;
+  top: 150px;
+  right: 15px;
+
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .btnWidth {
+    width: 100%;
+  }
+  .margin1 {
+    width: 100%;
+  }
+
+  .portraitBox {
+    position: relative;
+    top: 150px;
+    right: 15px;
+  }
+
+  .textCont {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+  }
+}

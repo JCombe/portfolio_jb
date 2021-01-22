@@ -1,0 +1,20 @@
+.footerBox {
+  display: block;
+  width: auto;
+  padding: 12px;
+  margin: auto;
+}
+
+.f3C {
+  font-size: 12px;
+  color: #1c2237;
+  width: fit-content;
+  text-align: left;
+}
+
+.f3I {
+  font-size: 12px;
+  color: #1c2237;
+  width: fit-content;
+  text-align: right;
+}
