@@ -1,5 +1,4 @@
-import React, { useState, } from 'react'
-import { Link } from "react-router-dom"
+import React  from 'react'
 import "./Bio.css"
 import jb from '../jb.JPG'
 
@@ -9,7 +8,14 @@ function Bio() {
     return (
         <>
             <div className="bioPageBox">
-                <img src={jb} className="portraitBox" />
+        
+        <div className="image__container">  
+
+        <img src={jb} alt="Jcombe" className="portraitBox" />
+        <div className="punkt"></div>
+
+    
+        </div>
                 <div className="textCont">
                     <p className="f1">
                         Julian Biscombe
