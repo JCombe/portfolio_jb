@@ -1,10 +1,8 @@
 .skillsBG {
-  display: block;
   justify-self: center;
   text-align: center;
   padding: 40px 15px 40px 15px;
   background-color: #1c2237;
-  height: 850px;
 }
 
 .stageHeadline {
@@ -13,12 +11,8 @@
 }
 
 .gridBox {
-  position: relative;
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 10px;
-  top: 50%;
-  transform: translate(0, -50%);
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
 }
@@ -59,14 +53,4 @@
   position: relative;
   top: 50%;
   transform: translate(0, -50%);
-}
-
-@media only screen and (max-width: 600px) {
-  .gridBox {
-    display: grid;
-    grid-template-columns: auto;
-    gap: 10px;
-    text-align: center;
-    justify-content: center;
-  }
 }

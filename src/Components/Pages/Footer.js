@@ -10,7 +10,7 @@ function Footer() {
                 </span>
             </div>
             <div className="f3I">
-                <a href="" >Impressum</a>
+                <a className="f3I">Impressum</a>
             </div>
         </div>
     )
