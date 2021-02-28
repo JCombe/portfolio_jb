@@ -1,0 +1,47 @@
+.portfolio {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 25px;
+
+  color: #093445;
+  background-color: white;
+  height: fit-content;
+}
+
+.portfolioTitle {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: rgb(93, 99, 231);
+}
+
+.portfolioInfo {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 30px;
+  line-height: 25px;
+}
+
+span {
+  color: rgb(147, 67, 242);
+}
+
+.portfolioLi {
+  font-size: 18px;
+}
+
+.portfolioImgContainer {
+  display: flex;
+  width: 850px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.portfolioImg {
+  border-radius: 15px;
+}

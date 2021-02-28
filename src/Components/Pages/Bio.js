@@ -1,6 +1,7 @@
-import React  from 'react'
+import React from 'react'
 import "./Bio.css"
-import jb from '../jb.JPG'
+import jb from '../../Assets/jb.JPG'
+
 
 
 
@@ -8,14 +9,11 @@ function Bio() {
     return (
         <>
             <div className="bioPageBox">
-        
-        <div className="image__container">  
 
-        <img src={jb} alt="Jcombe" className="portraitBox" />
-        <div className="punkt"></div>
+                <div className="image__container">
 
-    
-        </div>
+                    <img src={jb} alt="Jcombe" className="portraitBox" />
+                </div>
                 <div className="textCont">
                     <p className="f1">
                         Julian Biscombe
@@ -34,7 +32,6 @@ function Bio() {
                     <button className="bioBtnRes btnWidth">
                         View Resume
                     </button>
-
                 </div>
             </div>
         </>

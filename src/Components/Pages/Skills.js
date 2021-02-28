@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./Skills.css"
-import webDevIcn from '../webDevIcn.png'
-import sketchIcn from '../sketchIcn.png'
+import webDevIcn from '../../Assets/webDevIcn.png'
+import sketchIcn from '../../Assets/sketchIcn.png'
 
 function Skills() {
     return (

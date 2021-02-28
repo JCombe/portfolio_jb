@@ -2,7 +2,7 @@
   justify-self: center;
   text-align: center;
   padding: 40px 15px 40px 15px;
-  background-color: #1c2237;
+  background-color: #093445;
 }
 
 .stageHeadline {
@@ -29,14 +29,14 @@
 
 .skillBoxTitle {
   margin-top: 20px;
-  font-size: 20px;
-  color: #1c2237;
+  font-size: 25px;
+  color: #093445;
 }
 
 .skillBoxTxt {
   margin-top: 20px;
-  font-size: 15px;
-  color: #1c2237;
+  font-size: 20px;
+  color: #093445;
 }
 
 .imgBox {
@@ -46,7 +46,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  background-color: #1c2237;
+  background-color: #093445;
 }
 
 .imgPos {

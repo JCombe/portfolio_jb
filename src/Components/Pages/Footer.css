@@ -1,11 +1,10 @@
 .footerBox {
   display: flex;
-justify-content: space-between;
-padding: 20px;
-flex-wrap: wrap;
-background: rgb(43, 43, 43);
-color:white;
-
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+  background: #04212c;
+  color: white;
 }
 
 .f3C {
@@ -21,4 +20,3 @@ color:white;
   width: fit-content;
   text-align: right;
 }
-
