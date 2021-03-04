@@ -1,0 +1,98 @@
+.bioPageBox {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #ffffff;
+  height: fit-content;
+  justify-content: center;
+}
+
+.textCont {
+  width: 50%;
+  min-width: 300px;
+  height: fit-content;
+}
+
+.f1 {
+  margin-top: 42px;
+  margin-left: 171px;
+  text-align: left;
+  font-size: 44px;
+  color: #093445;
+}
+
+.f12 {
+  text-align: left;
+
+  margin-left: 171px;
+  font-size: 22px;
+  color: #4d7281;
+}
+
+.f2 {
+  font-size: 20px;
+  color: #093445;
+}
+
+.f3 {
+  font-size: 20px;
+  color: #4d7281;
+}
+
+.bioIntro {
+  height: fit-content;
+  font-size: 18px;
+  padding: 30px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-left: 171px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.158);
+  border-radius: 15px;
+}
+
+.bioMessage {
+  height: fit-content;
+  max-width: 900px;
+  font-size: 18px;
+  padding: 50px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.158);
+  border-radius: 15px;
+}
+
+.portraitBox {
+  border-radius: 50%;
+  max-height: 300px;
+  width: 300px;
+  margin-right: 60px;
+  margin-top: 112px;
+}
+
+.image__container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: fit-content;
+}
+
+@media only screen and (max-width: 647px) {
+  .btnWidth {
+    width: 100%;
+  }
+
+  .textCont {
+    text-align: center;
+    max-width: 450px;
+  }
+
+  .portraitBox {
+    margin-left: auto;
+  }
+
+  .image__container {
+    width: auto;
+  }
+}

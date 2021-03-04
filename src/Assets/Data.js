@@ -1,12 +1,18 @@
-import paarFitDashB from "../Assets/paarFitDashB.jpeg"
-import paarFitFeatures from "../Assets/paarFitFeatures.jpeg"
-import paarFitLanding from "../Assets/paarFitLanding.jpeg"
+import sketchIcn from "../Assets/sketchIcn.png"
+import webDevIcn from "../Assets/webDevIcn.png"
 
+export const skillArr = [
+    {
+        titel: "Web Dev",
+        description: "Developement of modern web-applications and API's using HTML5, JavaScript, CSS",
+        imgStart: true,
+        img: sketchIcn,
+    },
 
-export const featureObjOne = {
-    titel: "PaarFit",
-    feature:
-        "Designing and building the Front-End using Javascript framework React Js and the Css framework Tailwind Css.",
-    imgStart: false,
-    img: paarFitDashB,
-}
+    {
+        titel: "Grafic Design",
+        description: "Design of aesthetic and user-friendly interfaces using Sketch, Figma",
+        imgStart: false,
+        img: webDevIcn,
+    },
+]
