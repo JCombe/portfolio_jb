@@ -1,9 +1,38 @@
 .skillsBG {
+  position: relative;
   justify-self: center;
   text-align: center;
   padding: 40px 15px 40px 15px;
-  background-color: #093445;
+  background: linear-gradient(#ffffff, #156890);
+  z-index: -10;
 }
+
+.skillsBGbottom {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 343px;
+  background: linear-gradient(#421d9e, #092345);
+  z-index: -1;
+}
+
+.skillsWave {
+  position: absolute;
+  bottom: 339px;
+  left: 0px;
+  z-index: -1;
+}
+
+/* .waveColor1 {
+  background: linear-gradient(#ff6e49, #421d9e);
+}
+.waveColor2 {
+  background: linear-gradient(#d23152, #421d9e);
+}
+.waveColor3 {
+  background: linear-gradient(#9e1d62, #421d9e);
+} */
 
 .stageHeadline {
   position: relative;
@@ -15,6 +44,11 @@
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+}
+
+.gridItem {
+  height: fit-content;
+  width: fit-content;
 }
 
 .skillBox {

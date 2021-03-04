@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1438px" height="501px" viewBox="0 0 1438 501" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wave3</title>
+    <defs>
+        <linearGradient x1="50%" y1="2.91599961%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#9E1D62" offset="0%"></stop>
+            <stop stop-color="#421D9E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1.0-Desktop-View" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.-Skills" transform="translate(-2.000000, -182.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-4" transform="translate(2.000000, 182.000000)">
+                <path d="M92.0030397,404 C171.496124,373.736475 212.50304,367 310.00304,385.5 C407.50304,404 461.00412,269.889926 603.50304,268.5 C746.00196,267.110074 690.3219,-33.1765806 857.996538,3.23017391 C1025.67117,39.6369285 1006.49541,354.429153 1125.99451,415.341713 C1245.4936,476.254273 1294.99323,368.705534 1350.9928,368.705534 C1388.32585,368.705534 1417.99593,412.803689 1440.00304,501 L0,501 C8.33997036,456.509016 39.0076502,424.175683 92.0030397,404 Z" id="wave3" transform="translate(720.001520, 250.584322) scale(-1, 1) translate(-720.001520, -250.584322) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

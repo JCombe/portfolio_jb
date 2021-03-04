@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import './App.css';
 import Bio from "./Components/Bio.js";
 import Skills from "./Components/Skills.js";
@@ -7,21 +7,16 @@ import Portfolio from "./Components/Portfolio";
 import Logo from "./Components/Logo";
 
 function App() {
-  const [yDis, setYDis] = useState(5)
+  const [yValue, setYValue] = useState(0)
 
-  function myFunction() {
-
-    var elmnt = document.getElementById("appHome")
-    setYDis(elmnt.scrollTop)
-    console.log(yDis)
-  }
 
 
 
   return (
+
     <div >
-      <div id="appHome" onScroll={() => myFunction()}>
-        <Logo />
+      <div id="app" style={{ height: "100vh", overflow: "auto", scrollBehavior: "smooth" }} onScroll={(e) => setYValue(e.target.scrollTop)}>
+        <Logo yValue={yValue} />
         <Bio />
         <Skills />
         <Portfolio />

@@ -5,7 +5,7 @@ function SkillBox({ item }) {
     return (
 
 
-        <div className="skillBox">
+        <div className={item.unEvenNr ? "skillBoxUnEven" : "skillBox"}>
             <div className="imgBox">
                 <img src={item.img} className="imgPos" />
             </div>

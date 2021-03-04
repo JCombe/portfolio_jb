@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1266px" height="435px" viewBox="0 0 1266 435" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wave1</title>
+    <defs>
+        <linearGradient x1="50%" y1="14.2240376%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF6E49" offset="0%"></stop>
+            <stop stop-color="#421D9E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1.0-Desktop-View" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.-Skills" transform="translate(-24.000000, -248.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-4" transform="translate(2.000000, 182.000000)">
+                <path d="M98.0479167,435.061841 C154.314583,435.061841 205.904167,382.740892 252.5,298.722915 C299.095833,214.704938 368.792125,66 465.5,66 C562.207875,66 723.138093,316.747079 845.34168,316.747079 C967.545268,316.747079 1037.87827,479.323186 1128.87159,479.323186 C1189.5338,479.323186 1242.5766,486.548791 1288,501 L22,501 C35.1875,457.041227 60.5368056,435.061841 98.0479167,435.061841 Z" id="wave1"></path>
+            </g>
+        </g>
+    </g>
+</svg>
